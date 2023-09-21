@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Simple Web Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Simple Web Page</h1>
+        </header>
+
+        <p>This is a simple web page (sample)</p>
+        <p>-- created by Viraj</p>
+
+        <p>for ChainTech Network Assignment</p>
+
+        <p><b>{{ current_time }}</b></p>
+
+        <form action=" {{ url_for('main') }}" method="post">
+            <fieldset>
+                <p>Fill Form</p>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                <label for="name">Name</label>
+                <br><br>
+                <input type="text" name="email" id="email" placeholder="Enter Your Email">
+                <label for="email">Email</label>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+                <br><br>
+            </fieldset>
+        </form>
+
+
+
+        <footer>
+        
+            <b>Contact Information</b>
+            <p>Simple Web Page <br><br>
+            Mobile: 9999999999 <br><br>
+            Email: user@example.com <br></p>
+
+        </footer>
+
+    </body>
+</html>

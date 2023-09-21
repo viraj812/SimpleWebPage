@@ -1,0 +1,17 @@
+header{
+    background-color: #000;
+    color: aliceblue;
+}
+
+footer{
+    height: max-content;
+    width: 100%;
+    background-color: #000;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0px;
+}
+
+*{
+    text-align: center;
+}
