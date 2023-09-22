@@ -1,6 +1,12 @@
 header{
+    position: relative;
     background-color: #000;
     color: aliceblue;
+    height: max-content;
+}
+
+h1{
+    width: fit-content;
 }
 
 footer{
@@ -10,8 +16,30 @@ footer{
     color: aliceblue;
     position: fixed;
     bottom: 0px;
+    text-align: center;
 }
 
-*{
+form, p{
     text-align: center;
+}
+
+#navigation_menu {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    height: 100%;
+    line-height: 200%;
+    width: max-content;
+}
+
+.menu_items {
+    display: inline-block;
+    color: white;
+    height: 100%;
+    width: fit-content;
+    background-color: rgb(91, 54, 149);
+}
+
+.menu_items:hover{
+    background-color: yellowgreen;
 }
